@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block1 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 670px;
+}
+.block1 .picture {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 350px;
+  height: 570px;
+  position: absolute;
+  background-color: #39d1d1;
+  top: 100px;
+  left: 1000px;
+}
+.block1 .picture img {
+  left: 100px;
+  width: 600px;
+}
+.block1 .apple {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  left: 250px;
+  top: 50px;
+}
+.block1 .menu {
+  position: absolute;
+  width: 600px;
+  height: 40px;
+  padding: 10px;
+  font: optional;
+  left: 680px;
+  top: 50px;
+}
+.block1 .menu .about:hover::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  width: 43px;
+  height: 2px;
+  background-color: black;
+}
+.block1 .menu .offers:hover::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 105px;
+  width: 43px;
+  height: 2px;
+  background-color: black;
+}
+.block1 .menu .services:hover::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 185px;
+  width: 60px;
+  height: 2px;
+  background-color: black;
+}
+.block1 .menu a {
+  margin: 18px;
+  text-decoration: none;
+  color: #a5a2a2;
+  font-size: 13px;
+}
+.block1 .menu a:hover {
+  color: black;
+  transition: 0.2 s ease all;
+}
+.block1 .menu input {
+  width: 140px;
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 13px;
+  margin-left: 10px;
+  padding: 3px;
+}
+.block1 .freedom {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  top: 200px;
+  left: 250px;
+}
+.block1 .freedom h1 {
+  font-size: 38px;
+}
+.block1 .freedom h1::after {
+  content: "";
+  left: 0px;
+  top: 10px;
+  width: 3px;
+  height: 300px;
+  color: black;
+}
+.block1 .freedom p {
+  margin-top: 40px;
+  line-height: 20px;
+  padding: 20px;
+  border-left: 2px solid #a8a3a3;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  color: #807e7e;
+  font-size: 13px;
+}
+.block1 .freedom button {
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 12px;
+  border: none;
+  background-color: #d62727;
+  color: white;
+}
+.block1 .freedom button:hover {
+  background-color: #eb1313;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.block1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #bebcbc;
+  top: 670px;
+}
+
+.block2 {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 680px;
+}
+.block2 .para {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 50px;
+  left: 250px;
+}
+.block2 .para h4 {
+  display: inline-block;
+  padding-bottom: 40px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.block2 .para p {
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #161515;
+}
+.block2 .spirit {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 50px;
+  left: 600px;
+}
+.block2 .spirit h4 {
+  display: inline-block;
+  padding-bottom: 40px;
+  font-size: 13px;
+}
+.block2 .spirit p {
+  font-size: 12px;
+  line-height: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #161515;
+}
+.block2 .sunday {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 50px;
+  left: 900px;
+}
+.block2 .sunday h4 {
+  display: inline-block;
+  padding-bottom: 40px;
+  font-size: 13px;
+}
+.block2 .sunday p {
+  line-height: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #161515;
+}
+.block2 .sunday a {
+  position: absolute;
+  text-decoration: none;
+  color: #f11414;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 60px;
+  top: 155px;
+}
+.block2 .sunday a:hover {
+  transform: translateX(3px);
+}
+.block2 .sunday p::after {
+  position: absolute;
+  content: "";
+  top: 160px;
+  left: 0px;
+  width: 30px;
+  height: 2px;
+  background-color: #d31e1e;
+}
+
+.block3 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  left: 250px;
+  top: 400px;
+}
+.block3 h1 {
+  font-size: 40px;
+}
+.block3 h1::after {
+  content: "";
+  position: absolute;
+  top: 195px;
+  left: 0px;
+  width: 2px;
+  height: 80px;
+  background-color: #817b7b;
+}
+.block3 p {
+  position: relative;
+  left: 40px;
+  top: 60px;
+  line-height: 20px;
+  font-size: 13px;
+  color: grey;
+}
+.block3 button {
+  padding: 10px 20PX;
+  margin-top: 90px;
+  font-size: 12px;
+  border: none;
+  background-color: #d62727;
+  color: white;
+}
+.block3 button:hover {
+  background-color: #eb1313;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.albom {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  left: 750px;
+  top: 350px;
+}
+.albom img {
+  width: 400px;
+  height: 600px;
+}
+
+.runner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  top: 600px;
+}
+.runner img {
+  width: 100%;
+  height: 900px;
+}
+.runner .opinion {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  left: 640px;
+  top: 400px;
+}
+.runner .opinion h1 {
+  font-size: 40px;
+  color: white;
+}
+.runner .opinion h1::after {
+  content: "";
+  position: absolute;
+  top: 155px;
+  left: 0px;
+  width: 2px;
+  height: 95px;
+  background-color: white;
+}
+.runner .opinion p {
+  position: relative;
+  left: 40px;
+  top: 60px;
+  line-height: 22px;
+  font-size: 13px;
+  color: white;
+}
+.runner .opinion button {
+  padding: 10px 20PX;
+  margin-top: 90px;
+  font-size: 12px;
+  border: none;
+  background-color: #d62727;
+  color: white;
+}
+.runner .opinion button:hover {
+  background-color: #eb1313;
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
